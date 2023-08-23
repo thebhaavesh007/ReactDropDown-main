@@ -1,0 +1,37 @@
+.head{
+  text-align: center;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .dropdown__button {
+    padding: 10px 20px;
+    background-color: #eaeaea;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dropdown__item {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown__item--selected {
+    background-color: #d8d8d8;
+  }
+  
